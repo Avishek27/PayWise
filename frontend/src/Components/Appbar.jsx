@@ -1,17 +1,16 @@
 export default function Appbar(){
-    return <div className = "shadow h-14 flex justify-between">
-       <div className = "flex flex-col justify-center h-full ml-4">
-         Paytm App
-       </div>
-       <div className = "flex">
-          <div className = "flex flex-col justify-center h-full mr-4">
-            Hello
-          </div>
-          <div className = "rounded-full h-12 w-12 bg-slate-200 flex justify-center mt-1 mr-2">
-            <div className = "flex flex-col justify-center h-full text-xl">
-               Me
+    return <div className = "flex justify-between shadow-md">
+        <div className ="px-7 pt-5 py-5 size-15 text-xl font-bold">
+            Paytm
+        </div>
+        <div className = "flex justify-between text-lg font-semibold">
+            <div className ="px-7 pt-5 py-5">
+                Hello
             </div>
-          </div>
-       </div>
+            <div className = "px-7 pt-5 py-5 rounded-full border-2 bg-slate-600 text-white">
+                U
+            </div>
+        </div>
+        
     </div>
 }

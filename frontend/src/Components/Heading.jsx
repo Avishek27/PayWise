@@ -1,5 +1,5 @@
-export default function Heading({label}){
-    return <div className = "font-bold text-4xl pt-6">
-      {label}
+export default function Heading({ label }){
+    return <div className = "text-center text-6xl font-bold">
+        {label}
     </div>
 }
